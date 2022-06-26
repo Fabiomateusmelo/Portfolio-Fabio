@@ -437,7 +437,7 @@ article.intervalCardReveal.abaixo {
   flex-grow: 1;
 }
 
-@media screen and (max-width: 1223px) {
+@media screen and (max-width: 1222px) {
   #s-projects .grid-layout #projects > article {
     flex-basis: calc(100% - 20px);
   }
