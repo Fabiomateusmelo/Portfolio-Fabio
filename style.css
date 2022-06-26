@@ -79,7 +79,6 @@ header .grid-layout nav {
   align-items: center;
   flex-wrap: wrap;
   height: 8.6vh;
-  padding: 0px 40px;
 }
 
 header .grid-layout nav .nav-list {
