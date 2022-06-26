@@ -521,10 +521,6 @@ img#retl {
     display: none;
   }
 
-  #s-home .grid-layout #home {
-    height: 60vh;
-  }
-
   #s-home .grid-layout #home #home-container-text h1 {
     font-size: 32px;
   }
