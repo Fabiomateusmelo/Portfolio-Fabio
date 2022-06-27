@@ -210,7 +210,7 @@ header .grid-layout nav .nav-list li a:hover {
 #s-home .grid-layout #home {
   display: flex;
   align-items: center;
-  height: 70vh;
+  height: 100vh;
   overflow: hidden;
   width: 100%;
 }
