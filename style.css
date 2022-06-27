@@ -524,6 +524,10 @@ img#retl {
   #s-home .grid-layout #home #home-container-text h1 {
     font-size: 32px;
   }
+
+  #s-home .grid-layout #home {
+    height: 70vh;
+  }
 }
 
 #s-projects .grid-layout #projects > article h3 {
