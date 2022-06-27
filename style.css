@@ -289,7 +289,7 @@ img#tri2 {
 }
 
 img#tri3 {
-  margin-top: 25rem;
+  margin-top: 32rem;
   margin-left: -45rem;
 }
 
@@ -471,21 +471,6 @@ article.intervalCardReveal.abaixo {
     margin-top: 6rem;
   }
 
-  img#tri1 {
-    margin-top: -15rem;
-    margin-left: -27rem;
-  }
-
-  img#tri2 {
-    margin-top: -18rem;
-    margin-left: 10rem;
-  }
-
-  img#tri4 {
-    margin-top: 20rem;
-    margin-left: 10rem;
-  }
-
   div.right {
     margin-left: 0rem;
     width: 100%;
@@ -505,12 +490,15 @@ img#retl {
   #s-projects .grid-layout #projects > article {
     flex-basis: calc(100% - 20px);
   }
+
   img#tri1 {
-    display: none;
+    margin-top: -28rem;
+    margin-left: -21rem;
   }
 
   img#tri2 {
-    display: none;
+    margin-top: -22rem;
+    margin-left: 2rem;
   }
 
   img#tri3 {
@@ -518,7 +506,8 @@ img#retl {
   }
 
   img#tri4 {
-    display: none;
+    margin-top: 33rem;
+    margin-left: -22rem;
   }
 
   #s-home .grid-layout #home #home-container-text h1 {
@@ -526,7 +515,7 @@ img#retl {
   }
 
   #s-home .grid-layout #home {
-    height: 90vh;
+    height: 100vh;
   }
 }
 
