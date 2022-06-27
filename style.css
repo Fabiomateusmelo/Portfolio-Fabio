@@ -996,11 +996,6 @@ div.github {
   gap: 0.8rem;
 }
 
-@media (min-width: 992px) {
-  .navbar {
-    display: none;
-  }
-}
 
 footer {
   text-align: center;
