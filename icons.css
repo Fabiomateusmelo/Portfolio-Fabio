@@ -43,15 +43,7 @@
   -ms-transform: scale(2.2);
   -webkit-transform: scale(2.2);
   color: #ff003c;
-  background: linear-gradient(
-    270deg,
-    #ffffff -13.83%,
-    #fff2fa 12.4%,
-    #bdb2c6 45.19%,
-    #d2d0e0 61.93%,
-    #b4c3c8 87.45%,
-    #ffffff 126.06%
-  );
+  background: -webkit-linear-gradient(45deg, #ff003c, #c648c8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
