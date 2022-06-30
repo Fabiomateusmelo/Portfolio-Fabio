@@ -195,7 +195,7 @@ header .grid-layout nav .nav-list li a:hover {
 
 #s-home {
   padding: 0px 150px;
-  background-image: url('./assets/hero-bg.svg'), url('./assets/BackHome.svg');
+  background-image: url('./assets/backgr.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
