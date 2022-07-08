@@ -409,13 +409,13 @@ article.intervalCardReveal.abaixo {
 #s-projects .grid-layout h2 {
   padding-bottom: 24px;
   color: #e2dcdc;
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   font-weight: 500;
 }
 
 #s-projects .grid-layout h2 span {
   color: #6610f2;
-  font-size: 48px;
+  font-size: 42px;
 }
 
 #s-projects .grid-layout #projects > article {
@@ -740,13 +740,13 @@ div.github {
 #s-about .grid-layout #about-text h2 {
   padding-bottom: 24px;
   color: #e2dcdc;
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   font-weight: 500;
 }
 
 #s-about .grid-layout #about-text h2 span {
   color: #6610f2;
-  font-size: 48px;
+  font-size: 42px;
 }
 
 #s-about .grid-layout #about-text p {
@@ -795,13 +795,13 @@ div.github {
 #s-skills .grid-layout #skills #skills-text h2 {
   margin-bottom: 32px;
   color: #e2dcdc;
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   font-weight: 500;
 }
 
 #s-skills .grid-layout #skills #skills-text h2 span {
   color: #6610f2;
-  font-size: 48px;
+  font-size: 42px;
 }
 
 #s-skills .grid-layout #skills #skills-text .changeDescription {
@@ -928,13 +928,13 @@ div.github {
   padding-bottom: 24px;
   color: #e2dcdc;
   margin-bottom: 32px;
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   font-weight: 500;
 }
 
 #s-services .grid-layout h2 span {
   color: #6610f2;
-  font-size: 48px;
+  font-size: 42px;
 }
 
 #s-services .grid-layout #services {
