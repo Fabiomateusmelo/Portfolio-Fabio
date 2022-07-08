@@ -506,6 +506,9 @@ img#retl {
   #s-home .grid-layout #home {
     height: 100vh;
   }
+  #s-home {
+    background-image: none;
+  }
 }
 
 #s-projects .grid-layout #projects > article h3 {
