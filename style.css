@@ -506,6 +506,9 @@ img#retl {
   #s-home .grid-layout #home {
     height: 100vh;
   }
+}
+
+@media screen and (max-width: 512px) {
   #s-home {
     background-image: none;
   }
