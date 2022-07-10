@@ -47,11 +47,11 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #411e5c;
+  background-color: #3F3F46;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: hsl(324, 100%, 53%);
+  background-color: #6610f2;
   border-radius: 8px;
 }
 
