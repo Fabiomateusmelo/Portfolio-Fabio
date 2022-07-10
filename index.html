@@ -470,6 +470,58 @@
       </linearGradient>
     </svg>
 
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    </script>
+    <script>
+      window.formbutton =
+        window.formbutton ||
+        function() {
+          (formbutton.q = formbutton.q || []).push(arguments);
+        };
+      formbutton("create", {
+        action: "https://formspree.io/f/xlezypjj",
+        title: "Fale Comigo" +
+              "<i style='font-size: 50px;" +
+                        "position: absolute;" +
+                        "right: 0;'>☕</i>",
+        styles: {
+          color: "#909090",
+          button: {
+            backgroundColor: "#6610f2",
+            fill: "#e2dcdc",
+          },
+          shim: {
+            backgroundColor: "rgba(0,0,0,0)"
+          },
+          title: {
+            fontFamily: "Space Grotesk",
+            fontSize: "2.1rem",
+            backgroundColor: "#6610f2",
+            textShadow: "3px 3px 0 #3F3F46," +
+                        "-1px -1px 0 #3F3F46," +
+                        "1px -1px 0 #3F3F46," +
+                        "-1px 1px 0 #3F3F46," +
+                        "1px 1px 0 #3F3F46"
+          },
+          modal: {
+            background: "#3F3F46",
+          },
+          input: {
+            backgroundColor: "#FAFAFA",
+            boxShadow: "0px 0px 3px rgba(0,0,0,0.1)",
+            border: "1px solid rgba(0,0,0,0.1)",
+          },
+          submitLabel: {
+            marginTop: "18px"
+          },
+          closeButton: {
+            display: "none"
+          }
+        },
+        initiallyVisible: "true"
+      });
+    </script>
+
   </body>
   <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
   <script type="module" src="./js/main.js"></script> 
