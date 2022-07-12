@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Space Grotesk', sans-serif;
+  line-height: 1.5;
 }
 
 ul,
@@ -243,7 +244,6 @@ h1 img {
 h1 .typewriter {
   font-weight: 500;
   font-size: 24px;
-  line-height: 29px;
 }
 
 #s-home .grid-layout #home #home-container-text a {
@@ -521,10 +521,8 @@ img#retl {
 }
 
 #s-projects .grid-layout #projects > article p {
-  line-height: 24px;
   margin-top: 24px;
   color: #909090;
-  line-height: 2rem;
   font-family: 'Space Grotesk';
   font-size: 1.4rem;
 }
@@ -757,7 +755,6 @@ div.github {
 
 #s-about .grid-layout #about-text p {
   color: #909090;
-  line-height: 2.2rem;
   font-size: 1.5rem;
   width: 100%;
 }
@@ -816,7 +813,6 @@ div.github {
 
 #s-skills .grid-layout #skills #skills-text p {
   max-width: 500px;
-  line-height: 2.2rem;
   color: #909090;
   font-size: 1.4rem;
 }
