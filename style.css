@@ -567,6 +567,7 @@ a.button:hover {
   position: relative;
   font-size: 1.8rem;
   font-weight: 500;
+  font-family: 'Space Grotesk';
 }
 
 div.github {
