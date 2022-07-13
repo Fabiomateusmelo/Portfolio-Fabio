@@ -780,7 +780,7 @@ div.github {
   margin: 0 auto;
 }
 #s-services {
-  padding: 96px 48px;
+  padding: 96px 48px 48px;
 }
 @media screen and (max-width: 992px) {
   #s-services {
