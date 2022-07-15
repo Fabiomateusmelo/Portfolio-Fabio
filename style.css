@@ -538,7 +538,7 @@ div.github {
   border-radius: 10rem;
   transition: 1s all ease;
 }
-#s-about .grid-layout #about-photo #photo-iuricode {
+#s-about .grid-layout #about-photo #photo-fabio {
   width: 320px;
   border-radius: 10rem;
   transition: all 1s ease;
@@ -547,7 +547,7 @@ div.github {
   -webkit-backdrop-filter: blur(3px);
   box-shadow: 0.2rem 0.5rem 0.7rem hsl(324, 83%, 9%);
 }
-#s-about .grid-layout #about-photo #photo-iuricode:hover {
+#s-about .grid-layout #about-photo #photo-fabio:hover {
   border: 1px solid hsla(324, 100%, 53%, 0.6);
   box-shadow: 0 8px 32px 0 hsla(324, 100%, 53%, 1);
   border-radius: 10rem;
