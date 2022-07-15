@@ -913,4 +913,12 @@ footer .grid-layout div {
   #s-home .grid-layout #home #home-container-text {
     width: 90%;
   }
+  img#note:hover {
+    margin-top: -20.2rem;
+    margin-left: 61rem;
+  }
+  img#tablet:hover {
+    margin-top: -21.6rem;
+    margin-left: 59.5rem;
+  }
 }
