@@ -921,4 +921,7 @@ footer .grid-layout div {
     margin-top: -21.6rem;
     margin-left: 59.5rem;
   }
+  img.big {
+    width: 100%;
+  }
 }
