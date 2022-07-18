@@ -924,4 +924,7 @@ footer .grid-layout div {
   img.big {
     width: 100%;
   }
+  img#tri2 {
+    margin-left: 17rem;
+  }
 }
