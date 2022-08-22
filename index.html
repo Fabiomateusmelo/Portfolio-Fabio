@@ -487,6 +487,22 @@
               "<i style='font-size: 50px;" +
                         "position: absolute;" +
                         "right: 0;'>👾</i>",
+        fields: [
+          { 
+            type: "email", 
+            label: "Email:", 
+            name: "email",
+            required: true,
+            placeholder: "seu@email.com"
+          },
+          {
+            type: "textarea",
+            label: "Mensagem:",
+            name: "message",
+            placeholder: "Escreva algo para mim...",
+          },
+          { type: "submit" }      
+        ],
         styles: {
           color: "#909090",
           button: {
