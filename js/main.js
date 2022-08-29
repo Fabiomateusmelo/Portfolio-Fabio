@@ -29,7 +29,7 @@ hoverChangeDescription(
 );
 hoverChangeDescription(
   ".next",
-  "Next.js é uma estrutura da web que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para web baseados em React."
+  "NextJS é uma estrutura da web que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para web baseados em React."
 );
 hoverChangeDescription(
   ".styled",
