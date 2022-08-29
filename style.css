@@ -780,12 +780,7 @@ div.github {
   margin: 0 auto;
 }
 #s-services {
-  padding: 96px 48px 48px;
-}
-@media screen and (max-width: 992px) {
-  #s-services {
-    padding: 48px 16px;
-  }
+  padding: 36px;
 }
 #s-services .grid-layout h2 {
   text-align: center;
@@ -835,17 +830,14 @@ div.github {
 }
 footer {
   text-align: center;
-  margin-top: 72px;
+  margin-top: 96px;
 }
 @media screen and (max-width: 768px) {
   footer .grid-layout {
     justify-content: center;
   }
 }
-footer {
-  text-align: center;
-  margin-top: 72px;
-}
+
 footer .grid-layout {
   border-top: 1px solid rgba(114, 114, 126, 0.2);
   display: flex;
@@ -854,8 +846,6 @@ footer .grid-layout {
   flex-wrap: wrap;
   text-align: center;
   width: 100%;
-  padding: 20px;
-  padding-bottom: 2.6rem;
 }
 @media screen and (max-width: 768px) {
   footer .grid-layout {
