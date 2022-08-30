@@ -837,7 +837,6 @@ footer {
     justify-content: center;
   }
 }
-
 footer .grid-layout {
   border-top: 1px solid rgba(114, 114, 126, 0.2);
   display: flex;
@@ -846,11 +845,6 @@ footer .grid-layout {
   flex-wrap: wrap;
   text-align: center;
   width: 100%;
-}
-@media screen and (max-width: 768px) {
-  footer .grid-layout {
-    justify-content: center;
-  }
 }
 footer .grid-layout #direitos-autorais {
   margin-top: 24px;
