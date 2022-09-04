@@ -21,7 +21,7 @@ hoverChangeExperience(
   `Sinto realizado em cursar Análise e Desenvolvimento de Sistemas e estar em constante evolução com a tecnologia. Para alguém que gosta de estar sempre aprendendo, estou seguro em dizer que estou no lugar certo!`,
   'Análise e Desenvolvimento de Sistemas',
   'Faculdade',
-  'Jan 2022 - Jul 2024'
+  'Fev 2022 - Jul 2024'
 )
 
 hoverChangeExperience(
@@ -29,7 +29,7 @@ hoverChangeExperience(
   `Realizei Projeto Integrador em grupo sobre Soluções de TI na empresa onde trabalhava, aproveitei para aprofundar no campo de análise de dados(curso que fazia na época) e foi assim que descobri e me identifiquei com o Front e Back End.`,
   'Voltando aos Estudos',
   'Ciência de Dados',
-  'Jul 2021 - Jan 2022'
+  'Jul 2021 - Fev 2022'
 )
 
 hoverChangeExperience(
@@ -37,7 +37,7 @@ hoverChangeExperience(
   `Sempre me identifiquei com as Exatas e seus Desafios, então depois do Ensino Médio fiz um ano e meio de Engenharia Civil, mas por falta de tempo e dinheiro, tranquei a faculdade.`,
   'Exatas e Soluções de Problemas',
   'Engenharia Civil',
-  'Jan 2013 - Jun 2014'
+  'Fev 2013 - Jun 2014'
 )
 
 hoverChangeDescription(
