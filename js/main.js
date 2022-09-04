@@ -1,11 +1,44 @@
 import { initScrollReveal } from "./scrollReveal.js";
 import { typeWrite } from "./typeWrite.js";
+import { hoverChangeExperience } from './hoverChangeExperience.js'
 import { hoverChangeDescription } from "./hoverChangeDescription.js";
 import { menu } from "./menu.js";
 
 menu();
 initScrollReveal();
 typeWrite(document.querySelector(".typewriter"));
+
+hoverChangeExperience(
+  '.certificados',
+  `Além da Faculdade, complemento diariamente meus estudos com cursos da IBM, Linkedin Learning e Plataforma Rocketseat, aperfeiçoando meu código e aprendendo novas ferramentas.`,
+  'Aperfeiçoamento Constante',
+  'Certificados',
+  'Jan 2022 - Atual'
+)
+
+hoverChangeExperience(
+  '.faculdade',
+  `Sinto realizado em cursar Análise e Desenvolvimento de Sistemas e estar em constante evolução com a tecnologia. Para alguém que gosta de estar sempre aprendendo, estou seguro em dizer que estou no lugar certo!`,
+  'Análise e Desenvolvimento de Sistemas',
+  'Faculdade',
+  'Jan 2022 - Jul 2024'
+)
+
+hoverChangeExperience(
+  '.dados',
+  `Realizei Projeto Integrador em grupo sobre Soluções de TI na empresa onde trabalhava e aproveitei para aprofundar no campo de análise de dados(curso que fazia na época), foi assim que descobri e me identifiquei com o Front e Back End.`,
+  'Python e Jupyter Notebook',
+  'Ciência de Dados',
+  'Jul 2021 - Jan 2022'
+)
+
+hoverChangeExperience(
+  '.engenharia',
+  `Sempre me identifiquei com as Exatas e seus Desafios, então depois do Ensino Médio fiz um ano e meio de Engenharia Civil, mas por falta de tempo e dinheiro, tranquei a faculdade.`,
+  'Exatas e Soluções de Problemas',
+  'Engenharia Civil',
+  'Jan 2013 - Jun 2014'
+)
 
 hoverChangeDescription(
   ".html",
