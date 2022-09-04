@@ -26,8 +26,8 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   '.dados',
-  `Realizei Projeto Integrador em grupo sobre Soluções de TI na empresa onde trabalhava e aproveitei para aprofundar no campo de análise de dados(curso que fazia na época), foi assim que descobri e me identifiquei com o Front e Back End.`,
-  'Python e Jupyter Notebook',
+  `Realizei Projeto Integrador(avaliação em grupo do SENAC) sobre Soluções de TI na empresa onde trabalhava e aproveitei para aprofundar no campo de análise de dados(curso que fazia na época), foi assim que descobri e me identifiquei com o Front e Back End.`,
+  'Voltando aos estudos',
   'Ciência de Dados',
   'Jul 2021 - Jan 2022'
 )
