@@ -26,7 +26,7 @@ hoverChangeExperience(
 
 hoverChangeExperience(
   '.dados',
-  `Realizei Projeto Integrador em grupo sobre Soluções de TI na empresa onde trabalhava, aproveitei para aprofundar no campo de análise de dados(curso que fazia na época) e foi assim que descobri e me identifiquei com o Front e Back End.`,
+  `Realizei Projeto Integrador em grupo sobre Soluções de TI na empresa onde trabalhava, aproveitei para aprofundar no campo de análise de dados(curso que fazia na época) e assim fui descobrindo e me identificando cada vez mais com o Front e Back End.`,
   'Voltando aos Estudos',
   'Ciência de Dados',
   'Jul 2021 - Fev 2022'
