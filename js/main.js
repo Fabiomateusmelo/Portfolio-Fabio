@@ -35,7 +35,7 @@ hoverChangeExperience(
 hoverChangeExperience(
   '.grupo',
   `Trabalhei em projetos de portfólios web responsivos em parceria com um amigo que desempenhou o papel de designer UI/UX no Figma, posteriormente transformando esses designs em código. Atualmente, estou desenvolvendo uma aplicação web em colaboração com minha esposa, que também é programadora.`,
-  'Trabalho em grupo',
+  'Trabalhos em grupo',
   'Projetos Web',
   'Jun 2022 - Atual'
 )
