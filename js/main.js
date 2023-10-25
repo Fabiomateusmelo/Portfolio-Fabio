@@ -19,7 +19,7 @@ hoverChangeExperience(
 hoverChangeExperience(
   '.bootcamp',
   `Participei do Bootcamp Santander 2023 Fullstack, onde aprofundei meus conhecimentos em desenvolvimento, explorando o back end com a linguagem Java e o front end com o framework Angular, aprendendo também sobre suas componentizações.`,
-  'Maratona de código',
+  'Maratona de Código',
   'Bootcamp',
   'Ago 2023 - Out 2023'
 )
@@ -35,7 +35,7 @@ hoverChangeExperience(
 hoverChangeExperience(
   '.grupo',
   `Trabalhei em projetos de portfólios web responsivos em parceria com um amigo que desempenhou o papel de designer UI/UX no Figma, posteriormente transformando esses designs em código. Atualmente, estou desenvolvendo uma aplicação web em colaboração com minha esposa, que também é programadora.`,
-  'Trabalhos em grupo',
+  'Trabalhos em Grupo',
   'Projetos Web',
   'Jun 2022 - Atual'
 )
