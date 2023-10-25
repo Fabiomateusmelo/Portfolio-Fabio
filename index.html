@@ -1,586 +1,425 @@
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="Portfólio { Fábio Melo } " />
-    <meta property="og:description" content="Portfólio { Fábio Melo } " />
-    <meta name="theme-color" content="#6610F2" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
-    <link rel="manifest" href="./site.webmanifest">
-    <meta name="author" content="Fábio Melo" />
-    <title>Portfólio { Fábio Melo } </title>
-    <meta
-      name="description"
-      content="Meu nome é Fábio Mateus Melo, desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e acessibilidade."
-    />
-    <meta
-    name="keywords"
-    content="sites, web, desenvolvimento, frontend, fábio melo, programador, fábio mateus melo, front-end, designer, ui, freelancer, freela, website, fullstack, portfólio"
-  />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./icons.min.css" />
-    <link rel="stylesheet" href="./style.min.css" />
-  </head>
 
-  <body>
-    <header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Portfólio { Fábio Melo } " />
+  <meta property="og:description" content="Portfólio { Fábio Melo } " />
+  <meta name="theme-color" content="#6610F2" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <meta name="author" content="Fábio Melo" />
+  <title>Portfólio { Fábio Melo } </title>
+  <meta name="description"
+    content="Meu nome é Fábio Mateus Melo, desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e acessibilidade." />
+  <meta name="keywords"
+    content="sites, web, desenvolvimento, frontend, fábio melo, programador, fábio mateus melo, front-end, designer, ui, freelancer, freela, website, fullstack, portfólio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./icons.min.css" />
+  <link rel="stylesheet" href="./style.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="grid-layout">
+      <nav>
+        <a id="TopButton" href="#s-home">
+          <svg width="100" height="48" viewBox="0 0 79 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M16.0098 3.9942V6.86962H4.04132V9.20356H13.8439V11.8362H4.04132V16H0.363022V3.9942H16.0098ZM18.6929 13.8154V11.3508H29.317V13.8154H18.6929ZM15.0333 16L21.9978 3.9942H26.0682L33.0887 16H29.037L23.0061 5.20785H25.0599L19.0664 16H15.0333ZM25.9748 0.278563V2.78055H22.1098V0.278563H25.9748ZM34.6975 16V3.9942H44.2947C46.361 3.9942 47.8983 4.24938 48.9065 4.75973C49.9148 5.25764 50.4189 6.06674 50.4189 7.18703C50.4189 7.909 50.2073 8.46915 49.7841 8.86747C49.3609 9.25335 48.7572 9.53342 47.973 9.70769C47.1888 9.88196 46.2614 9.98776 45.1909 10.0251L45.3029 9.89441C46.0871 9.89441 46.8216 9.92553 47.5062 9.98776C48.1908 10.05 48.7883 10.1745 49.2986 10.3612C49.809 10.5479 50.2073 10.8218 50.4936 11.1827C50.7924 11.5313 50.9417 12.0105 50.9417 12.6205C50.9417 13.3798 50.699 14.0084 50.2136 14.5063C49.7405 15.0042 49.0621 15.3776 48.1784 15.6266C47.307 15.8631 46.2863 15.9876 45.1162 16H34.6975ZM38.3758 13.1433H45.0042C45.7137 13.1433 46.2427 13.0561 46.5913 12.8819C46.9523 12.6951 47.1327 12.3964 47.1327 11.9856C47.1327 11.6993 47.0394 11.4877 46.8527 11.3508C46.666 11.2014 46.4046 11.1018 46.0685 11.052C45.7324 11.0023 45.3403 10.9774 44.8922 10.9774H38.3758V13.1433ZM38.3758 9.09153H44.3507C45.0602 9.09153 45.5892 9.0044 45.9378 8.83013C46.2988 8.65586 46.4792 8.36956 46.4792 7.97124C46.4792 7.56046 46.2988 7.27417 45.9378 7.11235C45.5892 6.93808 45.0789 6.85095 44.4067 6.85095H38.3758V9.09153ZM53.2671 3.9942H56.9454V16H53.2671V3.9942ZM69.3424 16.3174C67.1267 16.3174 65.3031 16.0747 63.8716 15.5892C62.4526 15.0913 61.4008 14.3756 60.7161 13.442C60.0315 12.496 59.6892 11.3508 59.6892 10.0064C59.6892 8.63719 60.0315 7.48578 60.7161 6.5522C61.4008 5.61862 62.4526 4.90911 63.8716 4.42365C65.3031 3.92574 67.1267 3.67678 69.3424 3.67678C71.5581 3.67678 73.3755 3.92574 74.7945 4.42365C76.2135 4.90911 77.2654 5.61862 77.95 6.5522C78.6346 7.48578 78.9769 8.63719 78.9769 10.0064C78.9769 11.3508 78.6346 12.496 77.95 13.442C77.2654 14.3756 76.2135 15.0913 74.7945 15.5892C73.3755 16.0747 71.5581 16.3174 69.3424 16.3174ZM69.3424 13.4047C70.4876 13.4047 71.4834 13.2926 72.3298 13.0686C73.1887 12.8445 73.8547 12.4835 74.3277 11.9856C74.8007 11.4877 75.0372 10.828 75.0372 10.0064C75.0372 9.17244 74.8007 8.50649 74.3277 8.00858C73.8547 7.51067 73.1887 7.14969 72.3298 6.92563C71.4834 6.70157 70.4876 6.58954 69.3424 6.58954C68.1848 6.58954 67.1641 6.70157 66.2803 6.92563C65.4089 7.14969 64.7243 7.51067 64.2264 8.00858C63.7409 8.50649 63.4982 9.17244 63.4982 10.0064C63.4982 10.828 63.7409 11.4877 64.2264 11.9856C64.7243 12.4835 65.4089 12.8445 66.2803 13.0686C67.1641 13.2926 68.1848 13.4047 69.3424 13.4047ZM12.7423 28.6743H10.6697L19.408 17.9942H23.0863V30H19.408V21.5791L20.4536 21.9712L13.8999 30H9.56809L2.99571 21.9899L4.04132 21.5978V30H0.363022V17.9942H4.04132L12.7423 28.6743ZM29.8857 24.9587V27.1246H41.8915V30H26.2074V17.9942H41.8541V20.8696H29.8857V23.0542H39.6882V24.9587H29.8857ZM48.4182 17.9942V27.1246H58.0341V30H44.7399V17.9942H48.4182ZM69.3631 30.3174C67.1474 30.3174 65.3238 30.0747 63.8923 29.5892C62.4733 29.0913 61.4214 28.3756 60.7368 27.442C60.0522 26.496 59.7099 25.3508 59.7099 24.0064C59.7099 22.6372 60.0522 21.4858 60.7368 20.5522C61.4214 19.6186 62.4733 18.9091 63.8923 18.4236C65.3238 17.9257 67.1474 17.6768 69.3631 17.6768C71.5787 17.6768 73.3961 17.9257 74.8151 18.4236C76.2342 18.9091 77.286 19.6186 77.9706 20.5522C78.6553 21.4858 78.9976 22.6372 78.9976 24.0064C78.9976 25.3508 78.6553 26.496 77.9706 27.442C77.286 28.3756 76.2342 29.0913 74.8151 29.5892C73.3961 30.0747 71.5787 30.3174 69.3631 30.3174ZM69.3631 27.4047C70.5082 27.4047 71.5041 27.2926 72.3505 27.0686C73.2094 26.8445 73.8753 26.4835 74.3484 25.9856C74.8214 25.4877 75.0579 24.828 75.0579 24.0064C75.0579 23.1724 74.8214 22.5065 74.3484 22.0086C73.8753 21.5107 73.2094 21.1497 72.3505 20.9256C71.5041 20.7016 70.5082 20.5895 69.3631 20.5895C68.2054 20.5895 67.1847 20.7016 66.3009 20.9256C65.4296 21.1497 64.745 21.5107 64.2471 22.0086C63.7616 22.5065 63.5189 23.1724 63.5189 24.0064C63.5189 24.828 63.7616 25.4877 64.2471 25.9856C64.745 26.4835 65.4296 26.8445 66.3009 27.0686C67.1847 27.2926 68.2054 27.4047 69.3631 27.4047Z"
+              fill="#FDFDFD" />
+
+          </svg>
+        </a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="#s-projects">Projetos</a>
+          </li>
+          <li>
+            <a href="#s-about">Sobre</a>
+          </li>
+          <li>
+            <a href="#s-skills">Conhecimentos</a>
+          </li>
+          <li>
+            <a href="#s-services">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="s-home">
       <div class="grid-layout">
-        <nav>
-          <a id="TopButton" href="#s-home">
-            <svg width="100" height="48" viewBox="0 0 79 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M16.0098 3.9942V6.86962H4.04132V9.20356H13.8439V11.8362H4.04132V16H0.363022V3.9942H16.0098ZM18.6929 13.8154V11.3508H29.317V13.8154H18.6929ZM15.0333 16L21.9978 3.9942H26.0682L33.0887 16H29.037L23.0061 5.20785H25.0599L19.0664 16H15.0333ZM25.9748 0.278563V2.78055H22.1098V0.278563H25.9748ZM34.6975 16V3.9942H44.2947C46.361 3.9942 47.8983 4.24938 48.9065 4.75973C49.9148 5.25764 50.4189 6.06674 50.4189 7.18703C50.4189 7.909 50.2073 8.46915 49.7841 8.86747C49.3609 9.25335 48.7572 9.53342 47.973 9.70769C47.1888 9.88196 46.2614 9.98776 45.1909 10.0251L45.3029 9.89441C46.0871 9.89441 46.8216 9.92553 47.5062 9.98776C48.1908 10.05 48.7883 10.1745 49.2986 10.3612C49.809 10.5479 50.2073 10.8218 50.4936 11.1827C50.7924 11.5313 50.9417 12.0105 50.9417 12.6205C50.9417 13.3798 50.699 14.0084 50.2136 14.5063C49.7405 15.0042 49.0621 15.3776 48.1784 15.6266C47.307 15.8631 46.2863 15.9876 45.1162 16H34.6975ZM38.3758 13.1433H45.0042C45.7137 13.1433 46.2427 13.0561 46.5913 12.8819C46.9523 12.6951 47.1327 12.3964 47.1327 11.9856C47.1327 11.6993 47.0394 11.4877 46.8527 11.3508C46.666 11.2014 46.4046 11.1018 46.0685 11.052C45.7324 11.0023 45.3403 10.9774 44.8922 10.9774H38.3758V13.1433ZM38.3758 9.09153H44.3507C45.0602 9.09153 45.5892 9.0044 45.9378 8.83013C46.2988 8.65586 46.4792 8.36956 46.4792 7.97124C46.4792 7.56046 46.2988 7.27417 45.9378 7.11235C45.5892 6.93808 45.0789 6.85095 44.4067 6.85095H38.3758V9.09153ZM53.2671 3.9942H56.9454V16H53.2671V3.9942ZM69.3424 16.3174C67.1267 16.3174 65.3031 16.0747 63.8716 15.5892C62.4526 15.0913 61.4008 14.3756 60.7161 13.442C60.0315 12.496 59.6892 11.3508 59.6892 10.0064C59.6892 8.63719 60.0315 7.48578 60.7161 6.5522C61.4008 5.61862 62.4526 4.90911 63.8716 4.42365C65.3031 3.92574 67.1267 3.67678 69.3424 3.67678C71.5581 3.67678 73.3755 3.92574 74.7945 4.42365C76.2135 4.90911 77.2654 5.61862 77.95 6.5522C78.6346 7.48578 78.9769 8.63719 78.9769 10.0064C78.9769 11.3508 78.6346 12.496 77.95 13.442C77.2654 14.3756 76.2135 15.0913 74.7945 15.5892C73.3755 16.0747 71.5581 16.3174 69.3424 16.3174ZM69.3424 13.4047C70.4876 13.4047 71.4834 13.2926 72.3298 13.0686C73.1887 12.8445 73.8547 12.4835 74.3277 11.9856C74.8007 11.4877 75.0372 10.828 75.0372 10.0064C75.0372 9.17244 74.8007 8.50649 74.3277 8.00858C73.8547 7.51067 73.1887 7.14969 72.3298 6.92563C71.4834 6.70157 70.4876 6.58954 69.3424 6.58954C68.1848 6.58954 67.1641 6.70157 66.2803 6.92563C65.4089 7.14969 64.7243 7.51067 64.2264 8.00858C63.7409 8.50649 63.4982 9.17244 63.4982 10.0064C63.4982 10.828 63.7409 11.4877 64.2264 11.9856C64.7243 12.4835 65.4089 12.8445 66.2803 13.0686C67.1641 13.2926 68.1848 13.4047 69.3424 13.4047ZM12.7423 28.6743H10.6697L19.408 17.9942H23.0863V30H19.408V21.5791L20.4536 21.9712L13.8999 30H9.56809L2.99571 21.9899L4.04132 21.5978V30H0.363022V17.9942H4.04132L12.7423 28.6743ZM29.8857 24.9587V27.1246H41.8915V30H26.2074V17.9942H41.8541V20.8696H29.8857V23.0542H39.6882V24.9587H29.8857ZM48.4182 17.9942V27.1246H58.0341V30H44.7399V17.9942H48.4182ZM69.3631 30.3174C67.1474 30.3174 65.3238 30.0747 63.8923 29.5892C62.4733 29.0913 61.4214 28.3756 60.7368 27.442C60.0522 26.496 59.7099 25.3508 59.7099 24.0064C59.7099 22.6372 60.0522 21.4858 60.7368 20.5522C61.4214 19.6186 62.4733 18.9091 63.8923 18.4236C65.3238 17.9257 67.1474 17.6768 69.3631 17.6768C71.5787 17.6768 73.3961 17.9257 74.8151 18.4236C76.2342 18.9091 77.286 19.6186 77.9706 20.5522C78.6553 21.4858 78.9976 22.6372 78.9976 24.0064C78.9976 25.3508 78.6553 26.496 77.9706 27.442C77.286 28.3756 76.2342 29.0913 74.8151 29.5892C73.3961 30.0747 71.5787 30.3174 69.3631 30.3174ZM69.3631 27.4047C70.5082 27.4047 71.5041 27.2926 72.3505 27.0686C73.2094 26.8445 73.8753 26.4835 74.3484 25.9856C74.8214 25.4877 75.0579 24.828 75.0579 24.0064C75.0579 23.1724 74.8214 22.5065 74.3484 22.0086C73.8753 21.5107 73.2094 21.1497 72.3505 20.9256C71.5041 20.7016 70.5082 20.5895 69.3631 20.5895C68.2054 20.5895 67.1847 20.7016 66.3009 20.9256C65.4296 21.1497 64.745 21.5107 64.2471 22.0086C63.7616 22.5065 63.5189 23.1724 63.5189 24.0064C63.5189 24.828 63.7616 25.4877 64.2471 25.9856C64.745 26.4835 65.4296 26.8445 66.3009 27.0686C67.1847 27.2926 68.2054 27.4047 69.3631 27.4047Z" fill="#FDFDFD"/>
-            
-            </svg>  
-          </a>                 
-          <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+        <div id="home">
+          <div id="home-container-text">
+            <h1 class="delayMediumReveal">
+              Olá, me chamo<br />
+              <img class="big" src="./assets/FABIOMELOO.svg" alt="FÁBIO MELO" />
+              <span class="typewriter">
+                Sou desenvolvedor web e mobile.
+              </span>
+            </h1>
+            <a href="#s-services" class="delayExtraBigReveal">
+              Contato
+            </a>
           </div>
-          <ul class="nav-list">
-            <li>
-              <a href="#s-projects">Projetos</a>
-            </li>
-            <li>
-              <a href="#s-about">Sobre</a>
-            </li>
-            <li>
-              <a href="#s-skills">Conhecimentos</a>
-            </li>
-            <li>
-              <a href="#s-services">Contato</a>
-            </li>
-          </ul>
-        </nav>
+
+          <img id="tri1" src="./assets/tri1.svg" width="170px" height="65px" class="intervalCardReveal"
+            alt="aria-hidden" />
+          <img id="tri2" src="./assets/tri2.svg" width="140px" height="60px" class="intervalCardReveal"
+            alt="aria-hidden" />
+          <img id="tri3" src="./assets/tri3.svg" width="250px" height="150px" class="intervalCardReveal"
+            alt="aria-hidden" />
+          <img id="tri4" src="./assets/tri4.svg" width="270px" height="150px" class="intervalCardReveal"
+            alt="aria-hidden" />
+        </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section id="s-home">
-        <div class="grid-layout">
-          <div id="home">
-            <div id="home-container-text">
-              <h1 class="delayMediumReveal">
-                Olá, me chamo<br />
-                <img class="big" src="./assets/FABIOMELOO.svg" alt="FÁBIO MELO" />
-                <span class="typewriter">
-                  Sou desenvolvedor web e mobile.
-                </span>
-              </h1>
-              <a
-                href="#s-services"
-                class="delayExtraBigReveal"
-              >
-                Contato
-              </a>
-            </div>
+    <section id="s-projects">
+      <div class="grid-layout">
+        <h2 class="delaySmallReveal">Meus projetos <span>.</span></h2>
 
-            <img
-              id="tri1"
-              src="./assets/tri1.svg"
-              width="170px"
-              height="65px"
-              class="intervalCardReveal"
-              alt="aria-hidden"
-            />
-            <img
-              id="tri2"
-              src="./assets/tri2.svg"
-              width="140px"
-              height="60px"
-              class="intervalCardReveal"
-              alt="aria-hidden"
-            />
-            <img
-              id="tri3"
-              src="./assets/tri3.svg"
-              width="250px"
-              height="150px"
-              class="intervalCardReveal"
-              alt="aria-hidden"
-            />
-            <img
-              id="tri4"
-              src="./assets/tri4.svg"
-              width="270px"
-              height="150px"
-              class="intervalCardReveal"
-              alt="aria-hidden"
-            />    
-          </div>
-        </div>
-      </section>
+        <div id="projects">
+          <article class="intervalCardReveal">
+            <h3>PORTFÓLIO TROYANO</h3>
+            <p>
+              Portfólio versão mobile e desktop feito pelo meu amigo João Troyano com <b>Figma</b> e em <b>JavaScript,
+                CSS e HTML</b> por mim.
+            </p>
+            <a href="https://fabiomateusmelo.github.io/Portfolio-Troyano/" rel="noopener" target="_blank"
+              class="button delaySmallReveal">
+              <h6>Ver projeto</h6><img src="./assets/Vector.svg" alt="clique para ver projeto Portfólio Troyano">
+            </a>
+            <img id="ret" src="./assets/Rectangle.svg" width="400px" height="300px" alt="aria-hidden">
+            <img src="./assets/Mockup-checklist-2 1.svg" id="tablet" width="400px" class="delayExtraBigReveal"
+              alt="aria-hidden">
+          </article>
 
-      <section id="s-projects">
-        <div class="grid-layout">
-          <h2 class="delaySmallReveal">Meus projetos <span>.</span></h2>
-
-          <div id="projects">
-            <article class="intervalCardReveal">
-              <h3>PORTFÓLIO TROYANO</h3>
+          <article class="intervalCardReveal">
+            <div class="right">
+              <h3>
+                WIDGET FEEDBACK</h3>
               <p>
-                Portfólio versão mobile e desktop feito pelo meu amigo João Troyano com <b>Figma</b> e em <b>JavaScript, CSS e HTML</b> por mim.
+                Projeto botão widget completo com servidor, versão <b>Desktop(ReactJS) e Mobile(ReactNative).</b>
+                Captura mensagens e fotos da tela e armazena no banco de dados.
               </p>
-              <a
-              href="https://fabiomateusmelo.github.io/Portfolio-Troyano/"
-              rel="noopener"
-              target="_blank"
-              class="button delaySmallReveal"
-
-              ><h6>Ver projeto</h6><img src="./assets/Vector.svg" alt="clique para ver projeto Portfólio Troyano">
-              </a>
-              <img
-              id="ret"
-              src="./assets/Rectangle.svg"
-              width="400px"
-              height="300px"
-              alt="aria-hidden"
-              >
-              <img 
-              src="./assets/Mockup-checklist-2 1.svg"
-              id="tablet"
-              width="400px"
-              class="delayExtraBigReveal"
-              alt="aria-hidden"
-              >
-            </article>
-
-            <article class="intervalCardReveal">
-              <div class="right">
-                <h3>
-                  WIDGET FEEDBACK</h3>
-                <p>
-                  Projeto botão widget completo com servidor, versão <b>Desktop(ReactJS) e Mobile(ReactNative).</b>
-                  Captura mensagens e fotos da tela e armazena no banco de dados.
-                </p>
-                <a
-                href="https://impulseweb.vercel.app/"
-                rel="noopener"
-                target="_blank"
-                class="button delaySmallReveal"
-
-                ><h6>Ver projeto</h6><img src="./assets/Vector.svg" alt="clique para ver projeto 
+              <a href="https://impulseweb.vercel.app/" rel="noopener" target="_blank" class="button delaySmallReveal">
+                <h6>Ver projeto</h6><img src="./assets/Vector.svg" alt="clique para ver projeto 
                 Widget Feedback">
-                </a>
-              </div>
-              <img id="retl"
-              width="400px"
-              height="300px"
-              src="./assets/Rectangle.svg"
-              alt="aria-hidden"
-              >
-              <img
-              src="./assets/header-iphone-mockups-2-p-800 1.png"
-              id="cel"
-              width="390px"
-              class="delayExtraBigReveal"
-              alt="aria-hidden"
-              >
-            </article>
-
-            <article class="intervalCardReveal abaixo">
-              <h3>CYBER PRATA</h3>
-              <p>
-                Website responsivo na versão mobile e desktop feito com <b>JavaScript, HTML e CSS.</b>
-              </p>
-              <a
-              href="https://fabiomateusmelo.github.io/Cyber-Prata/"
-              rel="noopener"
-              target="_blank"
-              class="button delaySmallReveal"
-
-              ><h6>Ver projeto</h6><img src="./assets/Vector.svg" alt="clique para ver projeto 
-              Cyber Prata">
               </a>
-              <img
-              id="ret"
-              src="./assets/Rectangle.svg"
-              width="400px"
-              height="300px"
-              alt="aria-hidden"
-              >
-              <img 
-              src="./assets/Flying Mackbook Pro (15 inch) Mockup.png"
-              id="note"
-              width="390px"
-              class="delayExtraBigReveal"
-              alt="aria-hidden"
-              >
+            </div>
+            <img id="retl" width="400px" height="300px" src="./assets/Rectangle.svg" alt="aria-hidden">
+            <img src="./assets/header-iphone-mockups-2-p-800 1.png" id="cel" width="390px" class="delayExtraBigReveal"
+              alt="aria-hidden">
+          </article>
 
-            </article>
+          <article class="intervalCardReveal abaixo">
+            <h3>CYBER PRATA</h3>
+            <p>
+              Website responsivo na versão mobile e desktop feito com <b>JavaScript, HTML e CSS.</b>
+            </p>
+            <a href="https://fabiomateusmelo.github.io/Cyber-Prata/" rel="noopener" target="_blank"
+              class="button delaySmallReveal">
+              <h6>Ver projeto</h6><img src="./assets/Vector.svg" alt="clique para ver projeto 
+              Cyber Prata">
+            </a>
+            <img id="ret" src="./assets/Rectangle.svg" width="400px" height="300px" alt="aria-hidden">
+            <img src="./assets/Flying Mackbook Pro (15 inch) Mockup.png" id="note" width="390px"
+              class="delayExtraBigReveal" alt="aria-hidden">
+
+          </article>
           <div class="github">
-            <a
-            href="https://github.com/Fabiomateusmelo?tab=repositories"
-            rel="noopener"
-            target="_blank"
-            class="delayExtraBigReveal"
-            >Repositórios no GitHub</a
-            >
+            <a href="https://github.com/Fabiomateusmelo?tab=repositories" rel="noopener" target="_blank"
+              class="delayExtraBigReveal">Repositórios no GitHub</a>
           </div>
         </div>
-      </section>
+    </section>
 
-      <section id="s-about">
-        <div class="grid-layout">
-          <div id="about">
-            <div id="about-photo">
-              <img
-                src="https://github.com/Fabiomateusmelo.png"
-                width="350px"
-                height="350px"
-                alt="ilustração João Vitor Troyano"
-                class="delayMediumReveal"
-                id="photo-fabio"
-              />
-              <div class="about-figure figure-one icon-one delayExtraBigReveal">
-                <img
-                  src="assets/html-cor.svg"
-                  width="45px"
-                  height="45px"
-                  alt="ícone html"
-                />
-              </div>
-              <div class="about-figure figure-two icon-two delayExtraBigReveal">
-                <img
-                  src="assets/css-cor.svg"
-                  width="45px"
-                  height="45px"
-                  alt="ícone css"
-                />
-              </div>
-              <div
-                class="about-figure figure-three icon-three delayExtraBigReveal"
-              >
-                <img
-                  src="assets/js-cor.svg"
-                  width="45px"
-                  height="45px"
-                  alt="ícone javascript"
-                />
-              </div>
+    <section id="s-about">
+      <div class="grid-layout">
+        <div id="about">
+          <div id="about-photo">
+            <img src="https://github.com/Fabiomateusmelo.png" width="350px" height="350px"
+              alt="ilustração João Vitor Troyano" class="delayMediumReveal" id="photo-fabio" />
+            <div class="about-figure figure-one icon-one delayExtraBigReveal">
+              <img src="assets/html-cor.svg" width="45px" height="45px" alt="ícone html" />
             </div>
-            <article id="about-text">
-              <h2 class="delaySmallReveal">Quem sou <span>.</span></h2>
-              <p class="delayMediumReveal">
-                Olá, me chamo Fábio Mateus Melo, possuo 28 anos, sou casado, tenho dois filhos e estou cursando análise e desenvolvimento de sistemas e cada dia mais apaixonado pelo Front e Back-end.
-                <br>
-                <br>
-                Meu objetivo é ingressar no mercado de trabalho através de uma oportunidade de estágio profissional em áreas relacionadas a tecnologia e assim aprimorar-me para criar interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e acessibilidade.
-              </p>
+            <div class="about-figure figure-two icon-two delayExtraBigReveal">
+              <img src="assets/css-cor.svg" width="45px" height="45px" alt="ícone css" />
+            </div>
+            <div class="about-figure figure-three icon-three delayExtraBigReveal">
+              <img src="assets/js-cor.svg" width="45px" height="45px" alt="ícone javascript" />
+            </div>
+          </div>
+          <article id="about-text">
+            <h2 class="delaySmallReveal">Quem sou <span>.</span></h2>
+            <p class="delayMediumReveal">
+              Olá, me chamo Fábio Mateus Melo, possuo 28 anos, sou casado, tenho dois filhos e estou cursando análise e
+              desenvolvimento de sistemas e cada dia mais apaixonado pelo Front e Back-end.
+              <br>
+              <br>
+              Meu objetivo é ingressar no mercado de trabalho através de uma oportunidade de estágio profissional em
+              áreas relacionadas a tecnologia e assim aprimorar-me para criar interfaces modernas e de alta qualidade,
+              concentrado em performance, animações, responsividade e acessibilidade.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="s-experience">
+      <div class="grid-layout">
+        <h2 class="delaySmallReveal">Saiba mais <span>.</span></h2>
+        <div id="experience">
+          <div class="option-experience intervalCardReveal">
+            <div class="certificados activeExperience">
+              <h3>Certificados</h3>
+            </div>
+            <div class="grupo">
+              <h3>Projetos Web</h3>
+            </div>
+            <div class="bootcamp">
+              <h3>Bootcamp</h3>
+            </div>
+            <div class="dados">
+              <h3>Ciência de Dados</h3>
+            </div>
+          </div>
+          <div class="text-experience intervalCardReveal">
+            <div>
+              <h4 class="titleExperience">
+                Aperfeiçoamento Constante
+              </h4>
+              <p class="dateExperience">Jan 2022 - Atual</p>
+            </div>
+            <h5 class="companyExperience">Certificados</h5>
+            <p class="changeExperience">
+              Além da faculdade, todos os dias, complemento meus estudos por meio de cursos oferecidos em plataformas
+              como IBM,
+              LinkedIn Learning, Udemy, Rocketseat e Dio, aprimorando minhas habilidades de codificação e adquirindo
+              novas ferramentas
+              e conhecimentos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="s-skills">
+      <div class="grid-layout">
+        <div id="skills">
+          <article id="skills-text">
+            <h2 class="delaySmallReveal">Conhecimentos <span>.</span></h2>
+            <p class="delayMediumReveal changeDescription">
+              Passe o cursor do mouse no card para ler...
+            </p>
+          </article>
+
+          <div id="skills-cards">
+            <article class="html intervalCardReveal">
+              <span class="skills-cards-name-high">HTML</span>
+              <img src="assets/html.svg" width="60px" height="60px" alt="ícone do html" class="skills-icons" />
+            </article>
+            <article class="css intervalCardReveal">
+              <span class="skills-cards-name-high">CSS</span>
+              <img src="assets/css.svg" width="60px" height="60px" alt="ícone do css" class="skills-icons" />
+            </article>
+            <article class="js intervalCardReveal">
+              <span class="skills-cards-name-high">JavaScript</span>
+              <img src="assets/js.svg" width="60px" height="60px" alt="ícone do javascript" class="skills-icons" />
+            </article>
+            <article class="node intervalCardReveal">
+              <span class="skills-cards-name-high">NodeJS</span>
+              <img src="assets/nodejs-icon.svg" width="60px" height="60px" alt="ícone do node.js"
+                class="skills-icons" />
+            </article>
+            <article class="react intervalCardReveal">
+              <span class="skills-cards-name-low">ReactJS</span>
+              <img src="assets/react.svg" width="60px" height="60px" alt="ícone do react" class="skills-icons" />
+            </article>
+            <article class="next intervalCardReveal">
+              <span class="skills-cards-name-low">NextJS</span>
+              <img src="assets/next.svg" width="60px" height="60px" alt="ícone do next" class="skills-icons" />
+            </article>
+            <article class="styled intervalCardReveal">
+              <span class="skills-cards-name-low aumento-hover">Styled Components</span>
+              <img src="assets/styled.svg" width="60px" height="60px" alt="ícone do styled" class="skills-icons" />
+            </article>
+            <article class="tailwind intervalCardReveal">
+              <span class="skills-cards-name-low">Tailwind</span>
+              <img src="assets/tailwind.svg" width="60px" height="60px" alt="ícone do tailwind" class="skills-icons" />
             </article>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="s-experience">
-        <div class="grid-layout">
-          <h2 class="delaySmallReveal">Saiba mais <span>.</span></h2>
-          <div id="experience">
-            <div class="option-experience intervalCardReveal">
-              <div class="certificados activeExperience">
-                <h3>Certificados</h3>
-              </div>
-              <div class="faculdade">
-                <h3>Faculdade</h3>
-              </div>
-              <div class="dados">
-                <h3>Ciência de Dados</h3>
-              </div>
-              <div class="engenharia">
-                <h3>Engenharia Civil</h3>
-              </div>
-            </div>
-            <div class="text-experience intervalCardReveal">
-              <div>
-                <h4 class="titleExperience">
-                  Aperfeiçoamento Constante
-                </h4>
-                <p class="dateExperience">Jan 2022 - Atual</p>
-              </div>
-              <h5 class="companyExperience">Certificados</h5>
-              <p class="changeExperience">
-                Além da Faculdade, complemento diariamente meus estudos com cursos da IBM, Linkedin Learning, Udemy e Plataforma Rocketseat, aperfeiçoando meu código e aprendendo novas ferramentas.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="s-skills">
-        <div class="grid-layout">
-          <div id="skills">
-            <article id="skills-text">
-              <h2 class="delaySmallReveal">Conhecimentos <span>.</span></h2>
-              <p class="delayMediumReveal changeDescription">
-                Passe o cursor do mouse no card para ler...
-              </p>
-            </article>
-
-            <div id="skills-cards">
-              <article class="html intervalCardReveal">
-                <span class="skills-cards-name-high">HTML</span>
-                <img
-                  src="assets/html.svg"
-                  width="60px"
-                  height="60px"
-                  alt="ícone do html"
-                  class="skills-icons"
-                />
-              </article>
-              <article class="css intervalCardReveal">
-                <span class="skills-cards-name-high">CSS</span>
-                <img
-                  src="assets/css.svg"
-                  width="60px"
-                  height="60px"
-                  alt="ícone do css"
-                  class="skills-icons"
-                />
-              </article>
-              <article class="js intervalCardReveal">
-                <span class="skills-cards-name-high">JavaScript</span>
-                <img
-                  src="assets/js.svg"
-                  width="60px"
-                  height="60px"
-                  alt="ícone do javascript"
-                  class="skills-icons"
-                />
-              </article>
-              <article class="node intervalCardReveal">
-                <span class="skills-cards-name-high">NodeJS</span>
-                <img
-                  src="assets/nodejs-icon.svg"
-                  width="60px"
-                  height="60px"
-                  alt="ícone do node.js"
-                  class="skills-icons"
-                />
-              </article>
-              <article class="react intervalCardReveal">
-                <span class="skills-cards-name-low">ReactJS</span>
-                <img
-                  src="assets/react.svg"
-                  width="60px"
-                  height="60px"
-                  alt="ícone do react"
-                  class="skills-icons"
-                />
-              </article>
-              <article class="next intervalCardReveal">
-                <span class="skills-cards-name-low">NextJS</span>
-                <img
-                  src="assets/next.svg"
-                  width="60px"
-                  height="60px"
-                  alt="ícone do next"
-                  class="skills-icons"
-                />
-              </article>
-              <article class="styled intervalCardReveal">
-                <span class="skills-cards-name-low aumento-hover"
-                  >Styled Components</span
-                >
-                <img
-                  src="assets/styled.svg"
-                  width="60px"
-                  height="60px"
-                  alt="ícone do styled"
-                  class="skills-icons"
-                />
-              </article>
-              <article class="tailwind intervalCardReveal">
-                <span class="skills-cards-name-low">Tailwind</span>
-                <img
-                  src="assets/tailwind.svg"
-                  width="60px"
-                  height="60px"
-                  alt="ícone do tailwind"
-                  class="skills-icons"
-                />
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="s-services">
-        <div class="grid-layout">
-          <h2 class="delaySmallReveal">Contato <span>.</span></h2>
-          <div id="services">
-            <div class="content delayMediumReveal">
-              <ul>
-                <li>
-                  <a class="scale" href="https://wa.me/5517996285034" target="_blank">
-                  <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  >
+    <section id="s-services">
+      <div class="grid-layout">
+        <h2 class="delaySmallReveal">Contato <span>.</span></h2>
+        <div id="services">
+          <div class="content delayMediumReveal">
+            <ul>
+              <li>
+                <a class="scale" href="https://wa.me/5517996285034" target="_blank">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M16.6 14.0001C16.4 13.9001 15.1 13.3001 14.9 13.2001C14.7 13.1001 14.5 13.1001 14.3 13.3001C14.1 13.5001 13.7 14.1001 13.5 14.3001C13.4 14.5001 13.2 14.5001 13 14.4001C12.3 14.1001 11.6 13.7001 11 13.2001C10.5 12.7001 10 12.1001 9.6 11.5001C9.5 11.3001 9.6 11.1001 9.7 11.0001C9.8 10.9001 9.9 10.7001 10.1 10.6001C10.2 10.5001 10.3 10.3001 10.3 10.2001C10.4 10.1001 10.4 9.9001 10.3 9.8001C10.2 9.7001 9.7 8.5001 9.5 8.0001C9.4 7.3001 9.2 7.3001 9 7.3001C8.9 7.3001 8.7 7.3001 8.5 7.3001C8.3 7.3001 8 7.5001 7.9 7.6001C7.3 8.2001 7 8.9001 7 9.7001C7.1 10.6001 7.4 11.5001 8 12.3001C9.1 13.9001 10.5 15.2001 12.2 16.0001C12.7 16.2001 13.1 16.4001 13.6 16.5001C14.1 16.7001 14.6 16.7001 15.2 16.6001C15.9 16.5001 16.5 16.0001 16.9 15.4001C17.1 15.0001 17.1 14.6001 17 14.2001C17 14.2001 16.8 14.1001 16.6 14.0001ZM19.1 4.9001C15.2 1.0001 8.9 1.0001 5 4.9001C1.8 8.1001 1.2 13.0001 3.4 16.9001L2 22.0001L7.3 20.6001C8.8 21.4001 10.4 21.8001 12 21.8001C17.5 21.8001 21.9 17.4001 21.9 11.9001C22 9.3001 20.9 6.8001 19.1 4.9001ZM16.4 18.9001C15.1 19.7001 13.6 20.2001 12 20.2001C10.5 20.2001 9.1 19.8001 7.8 19.1001L7.5 18.9001L4.4 19.7001L5.2 16.7001L5 16.4001C2.6 12.4001 3.8 7.4001 7.7 4.9001C11.6 2.4001 16.6 3.7001 19 7.5001C21.4 11.4001 20.3 16.5001 16.4 18.9001Z"
-                      fill="#6610f2"
-                    />
+                      fill="#6610f2" />
                   </svg>
-                  </a>
-    
-                  +55 (17) 99628-5034
-                </li>
+                </a>
 
-                <li>
-                  <a class="scale" href="mailto:fabioceto@gmail.com?subject=👾Escreva sua mensagem no campo abaixo!">
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                +55 (17) 99628-5034
+              </li>
+
+              <li>
+                <a class="scale" href="mailto:fabioceto@gmail.com?subject=👾Escreva sua mensagem no campo abaixo!">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
-                      stroke="#6610f2"
-                      stroke-width="1.6"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <path
-                      d="M22 6L12 13L2 6"
-                      stroke="#6610f2"
-                      stroke-width="1.6"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
+                      stroke="#6610f2" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M22 6L12 13L2 6" stroke="#6610f2" stroke-width="1.6" stroke-linecap="round"
+                      stroke-linejoin="round" />
                   </svg>
-                  </a>
-    
-                  fabioceto@gmail.com
-                </li>
-              </ul>
-            </div>
+                </a>
 
-            </div>
-            <article class="delayExtraBigReveal align">
-              <ul class="social-icons c-link c-link--linkedin c-tooltip" aria-label="Linkedin">             
-                <li><a href="https://www.linkedin.com/in/fabio-mmelo/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
+                fabioceto@gmail.com
+              </li>
+            </ul>
+          </div>
 
-              <ul class="social-icons c-link c-link--GitHub c-tooltip" aria-label="GitHub">
-                <li><a href="https://github.com/Fabiomateusmelo" class="social-square" target="_blank"><i class="fa fa-github"></i></a></li>
-              </ul>
-            </article>
-            <div class="go delayMediumReveal">
-              <a href="./curriculo.pdf" target="_blank" class="gradient-button">
-                Currículo
-              </a>
-            </div>
+        </div>
+        <article class="delayExtraBigReveal align">
+          <ul class="social-icons c-link c-link--linkedin c-tooltip" aria-label="Linkedin">
+            <li><a href="https://www.linkedin.com/in/fabio-mmelo/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>
+
+          <ul class="social-icons c-link c-link--GitHub c-tooltip" aria-label="GitHub">
+            <li><a href="https://github.com/Fabiomateusmelo" class="social-square" target="_blank"><i
+                  class="fa fa-github"></i></a></li>
+          </ul>
+        </article>
+        <div class="go delayMediumReveal">
+          <a href="./curriculo.pdf" target="_blank" class="gradient-button">
+            Currículo
+          </a>
+        </div>
+      </div>
+      </div>
+
+
+      <footer>
+        <div class="grid-layout">
+          <p id="direitos-autorais">© Copyright 2023.</p>
+          <div>
+            <p>Powered by</p>
+            <a id="TopButton" href="#s-home">
+              <svg width="90" height="31" viewBox="0 0 79 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.0098 3.9942V6.86962H4.04132V9.20356H13.8439V11.8362H4.04132V16H0.363022V3.9942H16.0098ZM18.6929 13.8154V11.3508H29.317V13.8154H18.6929ZM15.0333 16L21.9978 3.9942H26.0682L33.0887 16H29.037L23.0061 5.20785H25.0599L19.0664 16H15.0333ZM25.9748 0.278563V2.78055H22.1098V0.278563H25.9748ZM34.6975 16V3.9942H44.2947C46.361 3.9942 47.8983 4.24938 48.9065 4.75973C49.9148 5.25764 50.4189 6.06674 50.4189 7.18703C50.4189 7.909 50.2073 8.46915 49.7841 8.86747C49.3609 9.25335 48.7572 9.53342 47.973 9.70769C47.1888 9.88196 46.2614 9.98776 45.1909 10.0251L45.3029 9.89441C46.0871 9.89441 46.8216 9.92553 47.5062 9.98776C48.1908 10.05 48.7883 10.1745 49.2986 10.3612C49.809 10.5479 50.2073 10.8218 50.4936 11.1827C50.7924 11.5313 50.9417 12.0105 50.9417 12.6205C50.9417 13.3798 50.699 14.0084 50.2136 14.5063C49.7405 15.0042 49.0621 15.3776 48.1784 15.6266C47.307 15.8631 46.2863 15.9876 45.1162 16H34.6975ZM38.3758 13.1433H45.0042C45.7137 13.1433 46.2427 13.0561 46.5913 12.8819C46.9523 12.6951 47.1327 12.3964 47.1327 11.9856C47.1327 11.6993 47.0394 11.4877 46.8527 11.3508C46.666 11.2014 46.4046 11.1018 46.0685 11.052C45.7324 11.0023 45.3403 10.9774 44.8922 10.9774H38.3758V13.1433ZM38.3758 9.09153H44.3507C45.0602 9.09153 45.5892 9.0044 45.9378 8.83013C46.2988 8.65586 46.4792 8.36956 46.4792 7.97124C46.4792 7.56046 46.2988 7.27417 45.9378 7.11235C45.5892 6.93808 45.0789 6.85095 44.4067 6.85095H38.3758V9.09153ZM53.2671 3.9942H56.9454V16H53.2671V3.9942ZM69.3424 16.3174C67.1267 16.3174 65.3031 16.0747 63.8716 15.5892C62.4526 15.0913 61.4008 14.3756 60.7161 13.442C60.0315 12.496 59.6892 11.3508 59.6892 10.0064C59.6892 8.63719 60.0315 7.48578 60.7161 6.5522C61.4008 5.61862 62.4526 4.90911 63.8716 4.42365C65.3031 3.92574 67.1267 3.67678 69.3424 3.67678C71.5581 3.67678 73.3755 3.92574 74.7945 4.42365C76.2135 4.90911 77.2654 5.61862 77.95 6.5522C78.6346 7.48578 78.9769 8.63719 78.9769 10.0064C78.9769 11.3508 78.6346 12.496 77.95 13.442C77.2654 14.3756 76.2135 15.0913 74.7945 15.5892C73.3755 16.0747 71.5581 16.3174 69.3424 16.3174ZM69.3424 13.4047C70.4876 13.4047 71.4834 13.2926 72.3298 13.0686C73.1887 12.8445 73.8547 12.4835 74.3277 11.9856C74.8007 11.4877 75.0372 10.828 75.0372 10.0064C75.0372 9.17244 74.8007 8.50649 74.3277 8.00858C73.8547 7.51067 73.1887 7.14969 72.3298 6.92563C71.4834 6.70157 70.4876 6.58954 69.3424 6.58954C68.1848 6.58954 67.1641 6.70157 66.2803 6.92563C65.4089 7.14969 64.7243 7.51067 64.2264 8.00858C63.7409 8.50649 63.4982 9.17244 63.4982 10.0064C63.4982 10.828 63.7409 11.4877 64.2264 11.9856C64.7243 12.4835 65.4089 12.8445 66.2803 13.0686C67.1641 13.2926 68.1848 13.4047 69.3424 13.4047ZM12.7423 28.6743H10.6697L19.408 17.9942H23.0863V30H19.408V21.5791L20.4536 21.9712L13.8999 30H9.56809L2.99571 21.9899L4.04132 21.5978V30H0.363022V17.9942H4.04132L12.7423 28.6743ZM29.8857 24.9587V27.1246H41.8915V30H26.2074V17.9942H41.8541V20.8696H29.8857V23.0542H39.6882V24.9587H29.8857ZM48.4182 17.9942V27.1246H58.0341V30H44.7399V17.9942H48.4182ZM69.3631 30.3174C67.1474 30.3174 65.3238 30.0747 63.8923 29.5892C62.4733 29.0913 61.4214 28.3756 60.7368 27.442C60.0522 26.496 59.7099 25.3508 59.7099 24.0064C59.7099 22.6372 60.0522 21.4858 60.7368 20.5522C61.4214 19.6186 62.4733 18.9091 63.8923 18.4236C65.3238 17.9257 67.1474 17.6768 69.3631 17.6768C71.5787 17.6768 73.3961 17.9257 74.8151 18.4236C76.2342 18.9091 77.286 19.6186 77.9706 20.5522C78.6553 21.4858 78.9976 22.6372 78.9976 24.0064C78.9976 25.3508 78.6553 26.496 77.9706 27.442C77.286 28.3756 76.2342 29.0913 74.8151 29.5892C73.3961 30.0747 71.5787 30.3174 69.3631 30.3174ZM69.3631 27.4047C70.5082 27.4047 71.5041 27.2926 72.3505 27.0686C73.2094 26.8445 73.8753 26.4835 74.3484 25.9856C74.8214 25.4877 75.0579 24.828 75.0579 24.0064C75.0579 23.1724 74.8214 22.5065 74.3484 22.0086C73.8753 21.5107 73.2094 21.1497 72.3505 20.9256C71.5041 20.7016 70.5082 20.5895 69.3631 20.5895C68.2054 20.5895 67.1847 20.7016 66.3009 20.9256C65.4296 21.1497 64.745 21.5107 64.2471 22.0086C63.7616 22.5065 63.5189 23.1724 63.5189 24.0064C63.5189 24.828 63.7616 25.4877 64.2471 25.9856C64.745 26.4835 65.4296 26.8445 66.3009 27.0686C67.1847 27.2926 68.2054 27.4047 69.3631 27.4047Z"
+                  fill="#FDFDFD" />
+              </svg>
+            </a>
           </div>
         </div>
+      </footer>
+    </section>
 
+  </main>
 
-        <footer>
-          <div class="grid-layout">
-            <p id="direitos-autorais">© Copyright 2023.</p>
-            <div>
-              <p>Powered by</p>
-              <a id="TopButton" href="#s-home">
-                <svg width="90" height="31" viewBox="0 0 79 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16.0098 3.9942V6.86962H4.04132V9.20356H13.8439V11.8362H4.04132V16H0.363022V3.9942H16.0098ZM18.6929 13.8154V11.3508H29.317V13.8154H18.6929ZM15.0333 16L21.9978 3.9942H26.0682L33.0887 16H29.037L23.0061 5.20785H25.0599L19.0664 16H15.0333ZM25.9748 0.278563V2.78055H22.1098V0.278563H25.9748ZM34.6975 16V3.9942H44.2947C46.361 3.9942 47.8983 4.24938 48.9065 4.75973C49.9148 5.25764 50.4189 6.06674 50.4189 7.18703C50.4189 7.909 50.2073 8.46915 49.7841 8.86747C49.3609 9.25335 48.7572 9.53342 47.973 9.70769C47.1888 9.88196 46.2614 9.98776 45.1909 10.0251L45.3029 9.89441C46.0871 9.89441 46.8216 9.92553 47.5062 9.98776C48.1908 10.05 48.7883 10.1745 49.2986 10.3612C49.809 10.5479 50.2073 10.8218 50.4936 11.1827C50.7924 11.5313 50.9417 12.0105 50.9417 12.6205C50.9417 13.3798 50.699 14.0084 50.2136 14.5063C49.7405 15.0042 49.0621 15.3776 48.1784 15.6266C47.307 15.8631 46.2863 15.9876 45.1162 16H34.6975ZM38.3758 13.1433H45.0042C45.7137 13.1433 46.2427 13.0561 46.5913 12.8819C46.9523 12.6951 47.1327 12.3964 47.1327 11.9856C47.1327 11.6993 47.0394 11.4877 46.8527 11.3508C46.666 11.2014 46.4046 11.1018 46.0685 11.052C45.7324 11.0023 45.3403 10.9774 44.8922 10.9774H38.3758V13.1433ZM38.3758 9.09153H44.3507C45.0602 9.09153 45.5892 9.0044 45.9378 8.83013C46.2988 8.65586 46.4792 8.36956 46.4792 7.97124C46.4792 7.56046 46.2988 7.27417 45.9378 7.11235C45.5892 6.93808 45.0789 6.85095 44.4067 6.85095H38.3758V9.09153ZM53.2671 3.9942H56.9454V16H53.2671V3.9942ZM69.3424 16.3174C67.1267 16.3174 65.3031 16.0747 63.8716 15.5892C62.4526 15.0913 61.4008 14.3756 60.7161 13.442C60.0315 12.496 59.6892 11.3508 59.6892 10.0064C59.6892 8.63719 60.0315 7.48578 60.7161 6.5522C61.4008 5.61862 62.4526 4.90911 63.8716 4.42365C65.3031 3.92574 67.1267 3.67678 69.3424 3.67678C71.5581 3.67678 73.3755 3.92574 74.7945 4.42365C76.2135 4.90911 77.2654 5.61862 77.95 6.5522C78.6346 7.48578 78.9769 8.63719 78.9769 10.0064C78.9769 11.3508 78.6346 12.496 77.95 13.442C77.2654 14.3756 76.2135 15.0913 74.7945 15.5892C73.3755 16.0747 71.5581 16.3174 69.3424 16.3174ZM69.3424 13.4047C70.4876 13.4047 71.4834 13.2926 72.3298 13.0686C73.1887 12.8445 73.8547 12.4835 74.3277 11.9856C74.8007 11.4877 75.0372 10.828 75.0372 10.0064C75.0372 9.17244 74.8007 8.50649 74.3277 8.00858C73.8547 7.51067 73.1887 7.14969 72.3298 6.92563C71.4834 6.70157 70.4876 6.58954 69.3424 6.58954C68.1848 6.58954 67.1641 6.70157 66.2803 6.92563C65.4089 7.14969 64.7243 7.51067 64.2264 8.00858C63.7409 8.50649 63.4982 9.17244 63.4982 10.0064C63.4982 10.828 63.7409 11.4877 64.2264 11.9856C64.7243 12.4835 65.4089 12.8445 66.2803 13.0686C67.1641 13.2926 68.1848 13.4047 69.3424 13.4047ZM12.7423 28.6743H10.6697L19.408 17.9942H23.0863V30H19.408V21.5791L20.4536 21.9712L13.8999 30H9.56809L2.99571 21.9899L4.04132 21.5978V30H0.363022V17.9942H4.04132L12.7423 28.6743ZM29.8857 24.9587V27.1246H41.8915V30H26.2074V17.9942H41.8541V20.8696H29.8857V23.0542H39.6882V24.9587H29.8857ZM48.4182 17.9942V27.1246H58.0341V30H44.7399V17.9942H48.4182ZM69.3631 30.3174C67.1474 30.3174 65.3238 30.0747 63.8923 29.5892C62.4733 29.0913 61.4214 28.3756 60.7368 27.442C60.0522 26.496 59.7099 25.3508 59.7099 24.0064C59.7099 22.6372 60.0522 21.4858 60.7368 20.5522C61.4214 19.6186 62.4733 18.9091 63.8923 18.4236C65.3238 17.9257 67.1474 17.6768 69.3631 17.6768C71.5787 17.6768 73.3961 17.9257 74.8151 18.4236C76.2342 18.9091 77.286 19.6186 77.9706 20.5522C78.6553 21.4858 78.9976 22.6372 78.9976 24.0064C78.9976 25.3508 78.6553 26.496 77.9706 27.442C77.286 28.3756 76.2342 29.0913 74.8151 29.5892C73.3961 30.0747 71.5787 30.3174 69.3631 30.3174ZM69.3631 27.4047C70.5082 27.4047 71.5041 27.2926 72.3505 27.0686C73.2094 26.8445 73.8753 26.4835 74.3484 25.9856C74.8214 25.4877 75.0579 24.828 75.0579 24.0064C75.0579 23.1724 74.8214 22.5065 74.3484 22.0086C73.8753 21.5107 73.2094 21.1497 72.3505 20.9256C71.5041 20.7016 70.5082 20.5895 69.3631 20.5895C68.2054 20.5895 67.1847 20.7016 66.3009 20.9256C65.4296 21.1497 64.745 21.5107 64.2471 22.0086C63.7616 22.5065 63.5189 23.1724 63.5189 24.0064C63.5189 24.828 63.7616 25.4877 64.2471 25.9856C64.745 26.4835 65.4296 26.8445 66.3009 27.0686C67.1847 27.2926 68.2054 27.4047 69.3631 27.4047Z" fill="#FDFDFD"/>
-                </svg>  
-              </a>
-            </div>
-          </div>
-        </footer>
-      </section>
-      
-    </main>
+  <svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
+    <linearGradient id="my-cool-gradient" x2="1" y2="0.7">
+      <stop offset="0%" stop-color="hsla(245, 94%, 45%, 1)" />
+      <stop offset="50%" stop-color="rgba(102, 16, 242, 1)" />
+      <stop offset="100%" stop-color="hsla(324, 100%, 53%, 1)" />
+    </linearGradient>
+  </svg>
 
-    <svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
-      <linearGradient id="my-cool-gradient" x2="1" y2="0.7">
-        <stop offset="0%" stop-color="hsla(245, 94%, 45%, 1)" />
-        <stop offset="50%" stop-color="rgba(102, 16, 242, 1)" />
-        <stop offset="100%" stop-color="hsla(324, 100%, 53%, 1)" />
-      </linearGradient>
-    </svg>
-
-    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-    </script>
-    <script>
-      window.formbutton =
-        window.formbutton ||
-        function() {
-          (formbutton.q = formbutton.q || []).push(arguments);
-        };
-      formbutton("create", {
-        action: "https://formspree.io/f/xlezypjj",
-        title: "Fale comigo" +
-              "<i style='font-size: 50px;" +
-                        "position: absolute;" +
-                        "right: 0;'>👾</i>",
-        fields: [
-          { 
-            type: "email", 
-            label: "Email:", 
-            name: "email",
-            required: true,
-            placeholder: "seu@email.com"
-          },
-          {
-            type: "textarea",
-            label: "Mensagem:",
-            name: "message",
-            placeholder: "Escreva sua mensagem aqui...",
-          },
-          { type: "submit" }      
-        ],
-        styles: {
-          color: "#909090",
-          button: {
-            backgroundColor: "#6610f2",
-            fill: "#e2dcdc",
-          },
-          shim: {
-            backgroundColor: "rgba(0,0,0,0.25)"
-          },
-          title: {
-            fontFamily: "Space Grotesk",
-            fontSize: "2.3rem",
-            backgroundColor: "#6610f2",
-            textShadow: "3px 3px 0 #27272a," +
-                        "-1px -1px 0 #27272a," +
-                        "1px -1px 0 #27272a," +
-                        "-1px 1px 0 #27272a," +
-                        "1px 1px 0 #27272a"
-          },
-          modal: {
-            background: "#27272a",
-          },
-          input: {
-            backgroundColor: "",
-            boxShadow: "0px 0px 3px rgba(0,0,0,0.1)",
-            border: "1px solid rgba(0,0,0,0.1)",
-          },
-          submitLabel: {
-            marginTop: "18px"
-          },
-          closeButton: {
-            display: "none"
-          }
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  </script>
+  <script>
+    window.formbutton =
+      window.formbutton ||
+      function () {
+        (formbutton.q = formbutton.q || []).push(arguments);
+      };
+    formbutton("create", {
+      action: "https://formspree.io/f/xlezypjj",
+      title: "Fale comigo" +
+        "<i style='font-size: 50px;" +
+        "position: absolute;" +
+        "right: 0;'>👾</i>",
+      fields: [
+        {
+          type: "email",
+          label: "Email:",
+          name: "email",
+          required: true,
+          placeholder: "seu@email.com"
         },
-        initiallyVisible: false
-      });
-    </script>
-    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
-    <script type="module" src="./js/main.js"></script>  
-  </body>
+        {
+          type: "textarea",
+          label: "Mensagem:",
+          name: "message",
+          placeholder: "Escreva sua mensagem aqui...",
+        },
+        { type: "submit" }
+      ],
+      styles: {
+        color: "#909090",
+        button: {
+          backgroundColor: "#6610f2",
+          fill: "#e2dcdc",
+        },
+        shim: {
+          backgroundColor: "rgba(0,0,0,0.25)"
+        },
+        title: {
+          fontFamily: "Space Grotesk",
+          fontSize: "2.3rem",
+          backgroundColor: "#6610f2",
+          textShadow: "3px 3px 0 #27272a," +
+            "-1px -1px 0 #27272a," +
+            "1px -1px 0 #27272a," +
+            "-1px 1px 0 #27272a," +
+            "1px 1px 0 #27272a"
+        },
+        modal: {
+          background: "#27272a",
+        },
+        input: {
+          backgroundColor: "",
+          boxShadow: "0px 0px 3px rgba(0,0,0,0.1)",
+          border: "1px solid rgba(0,0,0,0.1)",
+        },
+        submitLabel: {
+          marginTop: "18px"
+        },
+        closeButton: {
+          display: "none"
+        }
+      },
+      initiallyVisible: false
+    });
+  </script>
+  <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+  <script type="module" src="./js/main.js"></script>
+</body>
+
 </html>

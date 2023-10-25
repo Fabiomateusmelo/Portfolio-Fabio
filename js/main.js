@@ -10,34 +10,34 @@ typeWrite(document.querySelector(".typewriter"));
 
 hoverChangeExperience(
   '.certificados',
-  `Além da Faculdade, complemento diariamente meus estudos com cursos da IBM, Linkedin Learning e Plataforma Rocketseat, aperfeiçoando meu código e aprendendo novas ferramentas.`,
+  `Além da faculdade, todos os dias, complemento meus estudos por meio de cursos oferecidos em plataformas como IBM, LinkedIn Learning, Udemy, Rocketseat e Dio, aprimorando minhas habilidades de codificação e adquirindo novas ferramentas e conhecimentos.`,
   'Aperfeiçoamento Constante',
   'Certificados',
   'Jan 2022 - Atual'
 )
 
 hoverChangeExperience(
-  '.faculdade',
-  `Sinto realizado em cursar Análise e Desenvolvimento de Sistemas e estar em constante evolução com a tecnologia. Para alguém que gosta de estar sempre aprendendo, estou seguro em dizer que estou no lugar certo!`,
-  'Análise e Desenvolvimento de Sistemas',
-  'Faculdade',
-  'Fev 2022 - Jul 2024'
+  '.bootcamp',
+  `Participei do Bootcamp Santander 2023 Fullstack, onde aprofundei meus conhecimentos em desenvolvimento, explorando o back end com a linguagem Java e o front end com o framework Angular, aprendendo também sobre suas componentizações.`,
+  'Maratona de código',
+  'Bootcamp',
+  'Ago 2023 - Out 2023'
 )
 
 hoverChangeExperience(
   '.dados',
-  `Realizei Projeto Integrador em grupo sobre Soluções de TI na empresa onde trabalhava, aproveitei para aprofundar no campo de análise de dados e assim descobri e me identifiquei mais com o Front e Back End.`,
+  `Comecei meus estudos na área de tecnologia há algum tempo, embarcando em um curso de Ciência de Dados que me deu uma visão geral desse campo. Ao longo dos meses de estudo, desenvolvi habilidades em Python e participei de projetos integradores em grupo, focados em soluções de TI para a empresa em que estava trabalhando.`,
   'Voltando aos Estudos',
   'Ciência de Dados',
   'Jul 2021 - Fev 2022'
 )
 
 hoverChangeExperience(
-  '.engenharia',
-  `Sempre me identifiquei com as Exatas e seus Desafios, então depois do Ensino Médio fiz um ano e meio de Engenharia Civil, mas por falta de tempo e dinheiro, tranquei a faculdade.`,
-  'Exatas e Soluções de Problemas',
-  'Engenharia Civil',
-  'Fev 2013 - Jun 2014'
+  '.grupo',
+  `Trabalhei em projetos de portfólios web responsivos em parceria com um amigo que desempenhou o papel de designer UI/UX no Figma, posteriormente transformando esses designs em código. Atualmente, estou desenvolvendo uma aplicação web em colaboração com minha esposa, que também é programadora.`,
+  'Trabalho em grupo',
+  'Projetos Web',
+  'Jun 2022 - Atual'
 )
 
 hoverChangeDescription(
